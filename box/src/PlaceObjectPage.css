@@ -1,0 +1,93 @@
+.place-object-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  position: relative; /* Make it easier to position the info text */
+}
+
+.place-object-page h1 {
+  color: #343a40;
+  margin-bottom: 10px; /* Reduce margin to bring the heading closer to the form */
+}
+
+.place-object-page form {
+  width: 80%; /* Make sure the form is centered and has a max width */
+  max-width: 600px; /* Optional: Limit the maximum width of the form */
+  display: flex; /* Use Flexbox for form layout */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center all children horizontally */
+}
+
+.place-object-page .form-group {
+  margin-bottom: 10px; /* Reduce margin to bring form items closer together */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form items horizontally */
+}
+
+.place-object-page .questions-group {
+  margin-bottom: 10px; /* Space between question fields */
+  display: flex;
+  flex-direction: column; /* Stack question fields vertically */
+  align-items: center; /* Center question fields horizontally */
+  width: 100%;
+}
+
+.place-object-page .questions-group label {
+  margin-bottom: 5px; /* Reduce space below the label for questions */
+}
+
+.place-object-page .question-field {
+  margin-bottom: 5px; /* Space between individual question fields */
+  width: 100%; /* Make sure question fields take full width */
+}
+
+.place-object-page label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.place-object-page input[type="text"],
+.place-object-page input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.place-object-page .image-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.place-object-page .image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.place-object-page button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center; /* Ensure the button is centered within the form */
+  margin-top: 10px; /* Add some space above the button */
+}
+
+.place-object-page button:hover {
+  background-color: #0056b3;
+}
+
+.info-text {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #343a40;
+}

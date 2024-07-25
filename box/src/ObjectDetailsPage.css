@@ -1,0 +1,51 @@
+.object-details-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.object-details-page h1 {
+  color: #343a40;
+}
+
+.object-details-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.object-details-page li {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+  text-align: center;
+  overflow-wrap: break-word; /* Ensure long words break and fit within the container */
+}
+
+.object-details-page input {
+  width: 80%; /* Make the input field fit within the li */
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.object-details-page button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 25%; /* Ensure the button fits within the container */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.object-details-page button:hover {
+  background-color: #0056b3;
+}
